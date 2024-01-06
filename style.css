@@ -1,0 +1,17 @@
+.accordion-button:hover {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+  color: black;
+  background-color: white;
+}
+.accordion-button {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px !important;
+  color: black;
+  background-color: white;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):focus {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+  color: black;
+  background-color: white;
+}
